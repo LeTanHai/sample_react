@@ -1,0 +1,28 @@
+.cus-sidebar {
+    overflow: hidden!important;
+}
+
+.cus-nav-dropdown {
+    .dropdown-toggle::after {
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: none;
+    }
+    .nav-link {
+        display: inline-flex;
+        padding: 0 1rem;
+        color: gray;
+    }
+}
+
+.amount-notification {
+    position: absolute;
+    font-size: 12px;
+    top: -10px;
+    left: 35px;
+    color: black;
+    background-color: red;
+    padding: 1px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
